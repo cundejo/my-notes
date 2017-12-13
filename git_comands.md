@@ -7,6 +7,8 @@ git branch -D branch_name
 git push origin :branch_name
 git fetch --all --prune
 
+# checkout remote branch to local
+git checkout -b branch_name origin/branch_name
 
 # merge
 git merge master
