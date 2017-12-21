@@ -15,4 +15,7 @@ git merge master
 
 # rebase
 git rebase master
+
+# unstage all the fields
+git reset
 ```
