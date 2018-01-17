@@ -11,10 +11,10 @@ git fetch --all --prune
 git checkout -b branch_name origin/branch_name
 
 # merge
-git merge master
+git merge origin/master
 
 # rebase
-git rebase master
+git rebase origin/master
 
 # unstage all the fields
 git reset
