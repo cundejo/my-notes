@@ -1,3 +1,3 @@
 ### Falsy values are 
 
-`0`, `null`, `undefined`, `""`, `NaN`, and `false`.
+`0` `null` `undefined` `""` `NaN` `false`
