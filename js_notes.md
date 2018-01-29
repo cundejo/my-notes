@@ -1,8 +1,8 @@
 
-```
-### Falsy values are 
+```js
+//Falsy values are 
 0 null undefined "" NaN false
 
-### Default initialization
+//Default initialization
 foo = bar || {};
 ```
