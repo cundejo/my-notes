@@ -1,7 +1,8 @@
-### Falsy values are 
 
-`0` `null` `undefined` `""` `NaN` `false`
+```
+### Falsy values are 
+0 null undefined "" NaN false
 
 ### Default initialization
-
-`foo = bar || {};`
+foo = bar || {};
+```
