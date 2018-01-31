@@ -18,4 +18,7 @@ git rebase origin/master
 
 # unstage all the fields
 git reset
+
+# remove all from stash
+git stash clear
 ```
