@@ -1,13 +1,3 @@
-## Redirection Operators ''>'' and ''>>''
-
-*The redirection operator ''>'' causes a file creation, and if it does exist, the contents are overwritten. 
-*The redirection operator ''>>'' add information to the end of file, rather than replacing it.
-
-## View all the open ports
-```
-netstat -nlt
-```
-
 ## Copying files and directories using scp
 
 ```
@@ -25,6 +15,16 @@ scp -r user@remotehost:/remotedir .
 
 ```
 rm -rf /path/*
+```
+
+## Redirection Operators ''>'' and ''>>''
+
+* The redirection operator ''>'' causes a file creation, and if it does exist, the contents are overwritten. 
+* The redirection operator ''>>'' add information to the end of file, rather than replacing it.
+
+## View all the open ports
+```
+netstat -nlt
 ```
 
 ## Available Memory:
