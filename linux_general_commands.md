@@ -11,6 +11,16 @@ scp user@remotehost:/remotedir/file1 /path/to/local/file1
 scp -r user@remotehost:/remotedir .
 ```
 
+## Ownership and permission:
+
+```
+# change owner
+chown -R user:group /path
+
+# change owner but no group owner
+chown -R user: /path
+```
+
 ## Deleting all recursive
 
 ```
@@ -83,4 +93,31 @@ du -sk -- * | sort -n | perl -pe '@SI=qw(K M G T P); s:^(\d+?)((\d\d\d)*)\s:$1."
 
 ```
 grep -r --include '*.list' '^deb ' /etc/apt/sources.list*
+```
+
+## Compare files and folders
+
+### With find
+This command will save in /tmp/file_list_$FOLDER an alphabetically ordered list of all the files inside $FOLDER, complete with the corresponding sub-folders:
+
+```
+find $FOLDER -type f | cut -d/ -f2- | sort > /tmp/file_list_$FOLDER
+```
+
+### With rsync
+The four command line switches r, v, c and n tell ''rsync'' to perform a ''v''erbose, ''r''ecursive, ''c''hecksum-based synchronization of the two directories, but only for show: ''-n'', in fact, displays what rsync would do IF you did let it free to make the second folder a perfect copy of the first one. The advantage of rsync is that can compare local directories with remote ones.
+
+```
+rsync -rvnc -delete todo_sync/ todo_orig/
+```
+
+### Graphical interface
+And graphically you could use ''meld''
+
+## Recover Linux Grub
+```
+root (hd1,0)
+kernel /boot/vmlinuz-3.0.0-20-generic root=/dev/sda1
+initrd /boot/initrd-3.0.0-20-generic
+boot
 ```
