@@ -18,6 +18,7 @@ skip-external-locking
 # Instead of skip-networking the default is now to listen only on
 # localhost which is more compatible and is not less secure.
 bind-address		= 127.0.0.1
+#skip_name_resolve
 
 # Fine Tuning
 key_buffer_size		= 16M
@@ -25,7 +26,6 @@ max_allowed_packet	= 16M
 max_connect_errors	= 1000000
 thread_stack		= 192K
 thread_cache_size   = 16
-skip_name_resolve
 table_definition_cache = 50
 table_open_cache       = 30
 
@@ -46,11 +46,10 @@ query_cache_size            = 80M
 
 # Logging and Replication
 log_error           = /var/log/mysql/error.log
-log_slow_queries    = /var/log/mysql/slow_queries.log
 
 # Here you can see queries with especially long duration
 #log_slow_queries	= /var/log/mysql/mysql-slow.log
-long_query_time = 2
+#long_query_time = 2
 #log-queries-not-using-indexes
 
 # The following can be used as easy to replay backup logs or for replication.
