@@ -25,14 +25,14 @@ max_allowed_packet	= 16M
 max_connect_errors	= 1000000
 thread_stack		= 192K
 thread_cache_size   = 16
-
-# Todo TRY THIS ONE
-#table_definition_cache = 50
+skip_name_resolve
+table_definition_cache = 50
+table_open_cache       = 30
 
 # This replaces the startup script and checks MyISAM tables if needed
 # the first time they are touched
 myisam-recover-options  = BACKUP
-max_connections			= 100
+max_connections			= 150
 tmp_table_size			= 32M
 max_heap_table_size		= 32M
 #table_cache            = 64
@@ -40,16 +40,17 @@ max_heap_table_size		= 32M
 
 # Query Cache Configuration
 query_cache_type            = 1
-query_cache_limit           = 256K
+query_cache_limit           = 1M
 query_cache_min_res_unit    = 2k
 query_cache_size            = 80M
 
 # Logging and Replication
-log_error = /var/log/mysql/error.log
+log_error           = /var/log/mysql/error.log
+log_slow_queries    = /var/log/mysql/slow_queries.log
 
 # Here you can see queries with especially long duration
 #log_slow_queries	= /var/log/mysql/mysql-slow.log
-#long_query_time = 2
+long_query_time = 2
 #log-queries-not-using-indexes
 
 # The following can be used as easy to replay backup logs or for replication.
