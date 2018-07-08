@@ -5,3 +5,6 @@ http://dev.mysql.com/doc/mysql/en/server-system-variables.html
 
 Manuals follwed to improve performance:
 https://www.tecmint.com/mysql-mariadb-performance-tuning-and-optimization
+
+Discuss later with Norge this article (check comments):
+https://opensourcehacker.com/2011/03/31/reducing-mysql-memory-usage-on-ubuntu-debian-linux/
