@@ -27,22 +27,22 @@ max_connect_errors	= 1000000
 thread_stack		= 192K
 thread_cache_size   = 16
 table_definition_cache = 50
-table_open_cache       = 30
+table_open_cache       = 15
 
 # This replaces the startup script and checks MyISAM tables if needed
 # the first time they are touched
 myisam-recover-options  = BACKUP
 max_connections			= 150
-tmp_table_size			= 32M
-max_heap_table_size		= 32M
+tmp_table_size			= 16M
+max_heap_table_size		= 16M
 #table_cache            = 64
 #thread_concurrency     = 10
 
 # Query Cache Configuration
 query_cache_type            = 1
+query_cache_size            = 80M
 query_cache_limit           = 1M
 query_cache_min_res_unit    = 2k
-query_cache_size            = 80M
 
 # Logging and Replication
 log_error           = /var/log/mysql/error.log
@@ -67,7 +67,7 @@ max_binlog_size     = 100M
 # ssl-key=/etc/mysql/server-key.pem
 innodb_flush_method            = O_DIRECT
 innodb_log_files_in_group      = 2
-innodb_log_file_size           = 16M
+innodb_log_file_size           = 32M
 innodb_flush_log_at_trx_commit = 1
 innodb_file_per_table          = 1
 innodb_buffer_pool_size        = 256M
