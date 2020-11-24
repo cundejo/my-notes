@@ -45,13 +45,12 @@ px | pixel | | | `1/96in` | `1/16pc` | `3/4pt` | `1px`
 should be used with caution, as there is still some
 [lingering bugs with their implementation](http://caniuse.com/#feat=viewport-units).
 
-Unit | Description
-:--- | :---
-[vw](http://www.w3.org/TR/css3-values/#vw-unit) | relative to 1% of viewport's width
-[vh](http://www.w3.org/TR/css3-values/#vh-unit) | relative to 1% of viewport's height
-[vmin](http://www.w3.org/TR/css3-values/#vmin-unit) | relative to 1% of viewport's smaller dimension
-[vmax](http://www.w3.org/TR/css3-values/#vmax-unit) | relative to 1% of viewport's larger dimension
-
+| Unit | Description |
+| :--- | :--- | 
+| [vw](http://www.w3.org/TR/css3-values/#vw-unit) | relative to 1% of viewport's width
+| [vh](http://www.w3.org/TR/css3-values/#vh-unit) | relative to 1% of viewport's height
+| [vmin](http://www.w3.org/TR/css3-values/#vmin-unit) | relative to 1% of viewport's smaller dimension
+|[vmax](http://www.w3.org/TR/css3-values/#vmax-unit) | relative to 1% of viewport's larger dimension
 # Contexts
 
 ## Document-level
