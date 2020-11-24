@@ -14,7 +14,7 @@ Recommendations of unit types per media type:
 play nicely with both screen and print media types and should be
 the most frequently used CSS units.
 | Unit | Description |
-| ------- | --- | 
+| ------- | - | 
 | % | percentage, relative to the same property of the parent element |
 | [em](http://www.w3.org/TR/css3-values/#em-unit) | relative to font size of the element |
 | [rem](http://www.w3.org/TR/css3-values/#rem-unit) | relative to font size of the root element |
