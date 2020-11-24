@@ -26,8 +26,7 @@ Physical units (e.g. cm, mm, in, pc, and pt)
 should only be used for print style sheets,
 while pixels (px) should only be used for the screen.
 While there are consistent conversions among all of these
-[absolute length units](http://www.w3.org/TR/css3-values/#absolute-lengths),
-[depending on the device, CSS units can actually mean different things](http://omnicognate.wordpress.com/2013/01/07/in-css-px-is-not-an-angular-measurement-and-it-is-not-non-linear/).
+[absolute length units](http://www.w3.org/TR/css3-values/#absolute-lengths), [depending on the device, CSS units can actually mean different things](http://omnicognate.wordpress.com/2013/01/07/in-css-px-is-not-an-angular-measurement-and-it-is-not-non-linear/).
 For example, while `1cm` in CSS should print as one physical centimeter,
 there's no guarantee that `1cm` in CSS results in one physical centimeter
 on the screen.
@@ -40,7 +39,6 @@ in | inch | `2.54cm` | `25.4mm` | `1in` | `6pc` | `72pt` | `96px`
 pc | pica | | | `1/6in` | `1pc` | `12pt` | `16px`
 pt | point | | | `1/72in` | `1/12pc` | `1pt` | `4/3px`
 px | pixel | | | `1/96in` | `1/16pc` | `3/4pt` | `1px`
-
 ## Viewport units
 
 [Viewport-percentage length units](http://www.w3.org/TR/css3-values/#viewport-relative-lengths)
