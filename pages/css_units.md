@@ -30,14 +30,14 @@ For example, while `1cm` in CSS should print as one physical centimeter,
 there's no guarantee that `1cm` in CSS results in one physical centimeter
 on the screen.
 
-Unit | Description | cm | mm | in | pc | pt | px
-:--- | :--- | ---: | ---: | ---: | ---: | ---: | ---:
-cm | centimeter | `1cm` | `10mm` | | | |
-mm | millimeter | `1/10cm` | `1mm` | | | |
-in | inch | `2.54cm` | `25.4mm` | `1in` | `6pc` | `72pt` | `96px`
-pc | pica | | | `1/6in` | `1pc` | `12pt` | `16px`
-pt | point | | | `1/72in` | `1/12pc` | `1pt` | `4/3px`
-px | pixel | | | `1/96in` | `1/16pc` | `3/4pt` | `1px`
+|Unit | Description | cm | mm | in | pc | pt | px|
+|:--- | :--- | ---: | ---: | ---: | ---: | ---: | ---:|
+|cm | centimeter | `1cm` | `10mm` | | | | |
+|mm | millimeter | `1/10cm` | `1mm` | | | | |
+|in | inch | `2.54cm` | `25.4mm` | `1in` | `6pc` | `72pt` | `96px`|
+|pc | pica | | | `1/6in` | `1pc` | `12pt` | `16px`|
+|pt | point | | | `1/72in` | `1/12pc` | `1pt` | `4/3px`|
+|px | pixel | | | `1/96in` | `1/16pc` | `3/4pt` | `1px`|
 ## Viewport units
 
 [Viewport-percentage length units](http://www.w3.org/TR/css3-values/#viewport-relative-lengths)
