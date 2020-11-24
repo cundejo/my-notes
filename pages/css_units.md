@@ -46,10 +46,10 @@ should be used with caution, as there is still some
 
 | Unit | Description |
 | :--- | :--- | 
-| [vw](http://www.w3.org/TR/css3-values/#vw-unit) | relative to 1% of viewport's width
-| [vh](http://www.w3.org/TR/css3-values/#vh-unit) | relative to 1% of viewport's height
-| [vmin](http://www.w3.org/TR/css3-values/#vmin-unit) | relative to 1% of viewport's smaller dimension
-|[vmax](http://www.w3.org/TR/css3-values/#vmax-unit) | relative to 1% of viewport's larger dimension
+| [vw](http://www.w3.org/TR/css3-values/#vw-unit) | relative to 1% of viewport's width|
+| [vh](http://www.w3.org/TR/css3-values/#vh-unit) | relative to 1% of viewport's height|
+| [vmin](http://www.w3.org/TR/css3-values/#vmin-unit) | relative to 1% of viewport's smaller dimension|
+|[vmax](http://www.w3.org/TR/css3-values/#vmax-unit) | relative to 1% of viewport's larger dimension|
 # Contexts
 
 ## Document-level
