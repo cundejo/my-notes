@@ -6,9 +6,9 @@ title: CSS Units
 Recommendations of unit types per media type:
 
 |Media | Recommended | Occasional use | Infrequent use | Not recommended|
-|:--- | :--- | :--- | :--- | :---|
-|Screen | em, rem, % | px | ch, ex, vw, vh, vmin, vmax | cm, mm, in, pt, pc
-Print | em, rem, % | cm, mm, in, pt, pc | ch, ex | px, vw, vh, vmin, vmax|
+| :--- | :--- | :--- | :--- | :--- |
+| Screen | em, rem, % | px | ch, ex, vw, vh, vmin, vmax | cm, mm, in, pt, pc
+Print | em, rem, % | cm, mm, in, pt, pc | ch, ex | px, vw, vh, vmin, vmax |
 ## Relative units
 [Relative units](http://www.w3.org/TR/css3-values/#font-relative-lengths)
 play nicely with both screen and print media types and should be
