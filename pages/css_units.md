@@ -13,7 +13,6 @@ Recommendations of unit types per media type:
 [Relative units](http://www.w3.org/TR/css3-values/#font-relative-lengths)
 play nicely with both screen and print media types and should be
 the most frequently used CSS units.
-
 | Unit | Description |
 | :--- | :--- | 
 | % | percentage, relative to the same property of the parent element |
